@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(/newProject/backiee-246549.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-inline: 10%;
+}
+.logo{
+    color: #e31b90;
+    font-family: 'Seymour One', sans-serif;
+    text-shadow:rgb(249, 247, 247) 1px 0 10px;
+    word-spacing: 0.3rem;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #e31b90;
+    padding: 10px 8px;
+    border-radius: 6px;
+}
+nav ul li a:hover{
+    text-shadow:rgb(249, 247, 247) 2px 0 10px;
+}
+.left a{
+    text-decoration: none;
+    color: #e31b90;
+    padding: 15px 12px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-inline: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.left a:hover{
+    box-shadow: #e31b90 3px 0 10px;
+}
+.features{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+    margin-right: 10%;
+}
+.features img{
+    display: block;
+    width: 250px;
+    border-radius: 250px;
+
+}
+.social-logo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.social-logo img{
+    width: 80px;
+    margin-right: 50px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.social-logo img:hover{
+    box-shadow: #e31b90 5px 0 10px;
+}
+.github{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+}
+.github img{
+    background-color: white;
+
+}
+.github img:hover{
+    box-shadow: #e31b90 5px 0 10px;
+}
